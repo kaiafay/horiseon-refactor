@@ -1,13 +1,16 @@
+/* Sets the styling for the whole page */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* Sets the body background color to an off-white color */
 body {
   background-color: #d9dcd6;
 }
 
+/* Styles the header's padding, font, font color, and background color */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +19,18 @@ header {
   color: #ffffff;
 }
 
+/* Sets display so nav bar sits in the same line and increases header size */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* Sets the color for the middle of the header so it stands out */
 header h1 .seo {
   color: #d9dcd6;
 }
 
+/* Styles the nav bar so it's spaced properly with matching font and font color to the header */
 header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,21 +39,25 @@ header div {
   font-size: 20px;
 }
 
+/* Styles the nav bar so it sits in the same line as the header as well as getting rid of the bullet point default list style */
 header div ul li {
   display: inline-block;
   margin-left: 25px;
   list-style-type: none;
 }
 
+/* Sets the font color for the nav links and gets rid of the underline default link style */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Sets the font size for all paragraphs */
 p {
   font-size: 16px;
 }
 
+/* Sets the styling for the hero image */
 .hero {
   height: 800px;
   width: 100%;
@@ -57,12 +67,14 @@ p {
   background-position: center;
 }
 
+/* Styles the content as neat boxes with text and images inside */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Styles the text inside the boxes */
 .content-article {
   margin-bottom: 20px;
   padding: 50px;
@@ -72,25 +84,30 @@ p {
   color: #ffffff;
 }
 
+/* Sets the height for the images so they sit nicely in the content boxes */
 .content-article img {
   max-height: 200px;
 }
 
+/* Styles the titles of the content boxes so they stand out */
 .content-article h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* floats alternating images left */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* floats alternating images right */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* Styles the side content so it sits nicely with the other elements on the page */
 .benefits {
   margin-right: 20px;
   color: #ffffff;
@@ -103,21 +120,25 @@ p {
   background-color: #2589bd;
 }
 
+/* Sets the spacing between text chunks */
 .benefit {
   margin-bottom: 32px;
 }
 
+/* Styles the headers of the side content so they stand out */
 .benefit h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Styles the side content icons */
 .benefit img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* Styles the footer's padding and font as well as centering it on the page */
 footer {
   padding: 30px;
   clear: both;
@@ -126,6 +147,7 @@ footer {
   text-align: center;
 }
 
+/* Makes the "Made with love by Horiseon" text bigger */
 footer h2 {
   font-size: 20px;
 }
